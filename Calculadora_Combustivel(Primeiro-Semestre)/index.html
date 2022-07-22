@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>Calculadora de Combustível</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Calculadora de combustível confeccionada a partir de um script desenvolvido em uma atividade proposta na disciplina 'Algoritimos e Programação I' do curso de 'Analíse e Desenvolvimento de Sistemas do SENAC'.">
+            <meta name="author" content="João Carlos Barbosa">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <script src="script.js" type="text/javascript" defer></script>
+        </head>
+        <body>
+            <header>
+                <h1>Calculadora de Combustível</h1>
+            </header>
+            <main class="corpo">
+                    <p class="texto">Insira o valor da gasolina e posteriormente o valor do álcool, para descobrir com qual combustível é mais vantajoso abastecer atualmente.</p><br>                    </p>
+                    <p>Gasolina:</p>
+                    <input maxlength="3" size="3" id="Gasolina" placeholder="000" class="f-itens" onkeyup="maskGasolina()"><br><br>
+                    <p id="pGasolina" class="alerta"></p><br>
+                    <p>Álcool:</p>
+                    <input maxlength="3" size="3" id="Alcool" placeholder="000" class="f-itens" onkeyup="maskAlcool()"><br><br>
+                    <p id="pAlcool" class="alerta"></p><br>
+                    <p></p><button onclick="calcular()">Calcular</button>
+                    <button onclick="location.reload()">Cancelar</button></p><br><br>
+                    <p id="pResultado"></p>
+                    <p id="pAlerta" class="alerta"></p>
+            </main>
+            <footer>
+                <p><small>Desenvolvido por: João Carlos Barbosa</small></p>
+            </footer>
+        </body>
+    </html>

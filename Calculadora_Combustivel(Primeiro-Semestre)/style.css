@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgray;
+}
+header {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 95%;
+    max-width: 1280px;
+    min-width: 310px;
+    min-height: 120px;
+    margin: auto;
+    border-radius: 10px;
+    background-color:dodgerblue;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-bottom: 1%;
+    font-size: 130%;
+}
+header h1{
+    padding-top: 3.5%;
+}
+.corpo {
+    width: 95%;
+    max-width: 1280px;
+    min-width: 310px;
+    max-height: 600px;
+    margin: auto;
+    border-radius: 10px;
+    background-color:dodgerblue;
+    text-align: center;
+    color:white;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-weight: bold;
+
+}
+.f-itens {
+    background-color: dodgerblue;
+    border-bottom: 3px solid white;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100px;
+    text-align: center;
+}
+button {
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(32, 32, 190);
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-left: 0.5%;
+}
+button:hover{
+    width: 120px;
+    height: 30px;
+    font-weight: bold;
+    color: lightgray;
+    background-color: dodgerblue;
+    border: 3px solid lightgrey;
+    border-radius: 10px;
+    margin-left: 0.5%;
+
+}
+main {
+    padding: 10px 0;
+}
+footer {
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    max-width:1280px;
+    min-width: 310px;
+    min-height: 60px;
+    margin: auto;
+    border-radius: 10px;
+    background-color:dodgerblue;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+    font-size: 130%;
+}
+footer p {
+    padding-top: 1.5%;
+}
+.alerta {
+    color: black;
+
+
+}
